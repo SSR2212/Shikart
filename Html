@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shikart - Merchandise Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Shikart</h1>
+        <p>Your one-stop shop for T-Shirts, Bedsheets, Shirts, and more!</p>
+    </header>
+
+    <section class="offer">
+        <h2>Roll a Dice Offer</h2>
+        <p>Buy now and roll a dice! If you roll a 6, your purchase is FREE!</p>
+    </section>
+
+    <section class="products">
+        <h2>Products</h2>
+        <div class="product">
+            <img src="tshirt.jpg" alt="T-Shirt">
+            <h3>Printed T-Shirt</h3>
+            <p>Price: $20</p>
+            <button onclick="goToCheckout()">Buy Now</button>
+        </div>
+        <div class="product">
+            <img src="bedsheet.jpg" alt="Bedsheet">
+            <h3>Bedsheet</h3>
+            <p>Price: $30</p>
+            <button onclick="goToCheckout()">Buy Now</button>
+        </div>
+    </section>
+
+    <section id="checkout" class="hidden">
+        <h2>Checkout</h2>
+        <p>Thank you for your purchase! Click the button below to roll the dice.</p>
+        <button onclick="rollDice()">Roll the Dice</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
