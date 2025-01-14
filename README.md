@@ -8,7 +8,7 @@ Shikart is an e-commerce website offering a variety of printed T-shirts, bedshee
 - If not, the purchase remains valid with no return or exchange.  
 
 ## How to Access the Website
-The website is live on GitHub Pages. Visit: [Shikart Live Site](https://SSR2212.github.io/Shikart)  
+The website is live on GitHub Pages. Visit:   https://ssr2212.github.io/Shikart/
 (*Replace the link with your actual GitHub Pages URL after enabling it.*)
 
 ## Features
